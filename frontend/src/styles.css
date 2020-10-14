@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+*, *::before, *::after {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header-wrap {
+  float: left;
+  width: 100%;
+}
+.site-btn {
+  font-size: 14px;
+  color: #ffffff;
+  background: #ca1515;
+  font-weight: 600;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+.card-item {
+  font-size: small;
+}
+.filter {
+  font-size: small;
+}
+.product-btn {
+  font-size: smaller;
+}
+a:hover {
+  text-decoration: none;
+}
