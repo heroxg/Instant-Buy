@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "causua-shirt",
+      "description": "MDC Mens Minimalist Watch Genuine Leather Watches for Men Ultra Thin Dress Casual Business Quartz Analog Wristwatch",
+      "price": 2500,
+      "imgUrl": "assets/images/product-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Female Blouse",
+      "description": "blush blouse in a satin fabric with flute sleeve",
+      "price": 1500,
+      "imgUrl": "assets/images/blouse.jpg"
+    }, 
+    {
+      "id": 3,
+      "name": "Brown Shoe",
+      "description": "Men Brown Colored Brogues Leather Corporate Shoe is basically for corporate dressing such as suit, simple corporate combination like shirt, trouser and tie and is available in carton color, coffee brown, and black.",
+      "price": 4500,
+      "imgUrl": "assets/images/brown-shoe.jpg"
+    },
+    {
+      "id": 4,
+      "name": "brown Watch, Men",
+      "description": "MDC Mens Minimalist Watch Genuine Leather Watches for Men Ultra Thin Dress Casual Business Quartz Analog Wristwatch",
+      "price": 5000,
+      "imgUrl": "assets/images/brown-watch-men.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Silver Wrist Watch",
+      "description": "Silver tone stainless steel case. Silver tone stainless steel band. White dial. Date display.",
+      "price": 3000,
+      "imgUrl": "assets/images/chain-watch.jpg"
+    },
+    {
+      "id": 6,
+      "name": "designer Shirt",
+      "description": "Stay cool on hot days in Stoney Creek Checkmate fabric. 100% cotton fabric made in a special open weave to allow airflow",
+      "price": 7500,
+      "imgUrl": "assets/images/custom-made-shirt.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Leather wrist watch",
+      "description": "Pairs Well With, Any vintage watch, though they look particularly bad-ass on Subs, Speedies, GMTs, and 50 Fathoms.",
+      "price": 3500,
+      "imgUrl": "assets/images/leather-watch.jpg"
+    }
+  ],
+  "cart": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
