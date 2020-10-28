@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs'
-import { productsUrl } from '../config/api'
+import { productsUrl } from './../../app/config/api'
 
 import { Product } from '../models/product'
-
 
 
 @Injectable()

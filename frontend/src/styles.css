@@ -33,3 +33,10 @@
 a:hover {
   text-decoration: none;
 }
+.guest-access h2 {
+  font-size: medium;
+  text-transform: uppercase;
+}
+.btn-primary.disabled, .btn-primary:disabled  {
+  cursor: not-allowed;
+}

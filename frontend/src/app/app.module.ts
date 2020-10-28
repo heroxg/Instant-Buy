@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module'
 
 
 import { AppComponent } from './app.component';
@@ -16,6 +18,10 @@ import { CartItemComponent } from './components/shopping-cart/cart/cart-item/car
 import { ProductItemComponent } from './components/shopping-cart/product-list/product-item/product-item.component';
 import { ProductService } from './services/product.service';
 import { MessengerService } from './services/messenger.service';
+import { CartService } from './services/cart.service';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -30,15 +36,21 @@ import { MessengerService } from './services/messenger.service';
     CartComponent,
     CartItemComponent,
     ProductItemComponent,
+    LoginComponent,
+    RegisterComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
     AngularFontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [
     ProductService,
-    MessengerService
+    MessengerService,
+    CartService
   ],
   bootstrap: [AppComponent]
 })
